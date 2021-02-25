@@ -1,0 +1,5 @@
+inputBitcoinInfo = print ("As of 1/16/20 at 10:30 am, bitcoin according to CoinDesk is currently trading at 8,682.51 USD per bitcoin.")
+inputBitcoinString = input ("Enter bitcoin Amount:")
+BitcoinAmount = float (inputBitcoinString)
+USDAmount = (BitcoinAmount * 8682.51)
+print ("That Bitcoin amount is worth", USDAmount, "in US Dollars") 
